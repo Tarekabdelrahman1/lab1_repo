@@ -31,6 +31,7 @@ Below is the step-by-step order of commands used to complete this lab:
 * `echo 'print("finish")' >> code.py` - Added the final required line.
 * `git add code.py`
 * `git commit --amend -m "finish"` - Merged the new change into the last commit and renamed it.
+* `git push origin main --force` - Force pushed the modified history to GitHub.
 
 ### 5. Bonus: Revert (Undo without Deleting)
 * `git revert HEAD~2..HEAD` - Reverted the changes from 2 commits back.
