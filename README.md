@@ -33,7 +33,7 @@ Below is the step-by-step order of commands used to complete this lab:
 * `git commit --amend -m "finish"` - Merged the new change into the last commit and renamed it.
 
 ### 5. Bonus: Revert (Undo without Deleting)
-* `git revert HEAD~3..HEAD` - Reverted the changes from 3 commits back.
+* `git revert HEAD~2..HEAD` - Reverted the changes from 2 commits back.
 * (Inside Vim): Changed the message to `"after revert"`.
 * `git push origin main --force` - Force pushed the modified history to GitHub.
 
