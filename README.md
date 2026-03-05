@@ -36,5 +36,6 @@ Below is the step-by-step order of commands used to complete this lab:
 ### 5. Bonus: Revert (Undo without Deleting)
 * `git revert HEAD~2..HEAD` - Reverted the changes from 2 commits back.
 * (Inside Vim): Changed the message to `"after revert"`.
+* `git revert HEAD~2..HEAD` - Performed an additional revert for "commit 2".
 * `git push origin main --force` - Force pushed the modified history to GitHub.
 
